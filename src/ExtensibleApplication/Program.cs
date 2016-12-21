@@ -40,6 +40,7 @@ namespace ExtensibleApplication
             Console.WriteLine($"3.0 - 4.0: {p.Calculator.CalculateInput("3.0-4.0")}");
             Console.WriteLine($"3.0 * 4.0: {p.Calculator.CalculateInput("3.0*4.0")}");
             Console.WriteLine($"3.0 % 4.0: {p.Calculator.CalculateInput("3.0%4.0")}");
+            Console.WriteLine($"3.0 ^ 4.0: {p.Calculator.CalculateInput("3.0^4.0")}");
         }
     }
 }
